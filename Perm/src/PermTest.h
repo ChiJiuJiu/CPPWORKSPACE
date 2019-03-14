@@ -11,6 +11,9 @@
 class PermTest {
 public:
 	PermTest();
+	template<class Type>
+	void perm(Type list[], int k, int m);
+	void swap(int a, int b);
 	virtual ~PermTest();
 };
 
