@@ -29,8 +29,10 @@ void swap(int a, int b) {
 	b = temp;
 }
 int main() {
-	int a[] = { 1, 2, 3 };
+	int a[] = {1, 2, 3};
 	perm(a, 0, 2);
 	return 0;
 }
+
+
 
