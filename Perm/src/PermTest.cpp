@@ -40,10 +40,10 @@ void swap(int a, int b) {
 }
 
 int main() {
-	int a[] = {1,2,3};
+	int a[] = { 1, 2, 3 };
 	perm(a, 0, 2);
 	cout << "全排列后的数组" << "\n";
-	for(int i = 0; i < 3; i++){
+	for (int i = 0; i < 3; i++) {
 		cout << a[i];
 	}
 	cout << endl;
