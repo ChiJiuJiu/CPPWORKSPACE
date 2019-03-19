@@ -6,6 +6,7 @@
  */
 #include <iostream>
 #include "PermTest.h"
+#include "myFunction.h"
 using namespace std;
 template<class Type>
 void perm(Type list[], int k, int m) {
@@ -23,6 +24,9 @@ void perm(Type list[], int k, int m) {
 	}
 }
 
+void sayHello(){
+	cout << "say hello" << endl;
+}
 void swap(int a, int b) {
 	int temp = a;
 	a = b;
@@ -31,6 +35,7 @@ void swap(int a, int b) {
 int main() {
 	int a[] = {1, 2, 3};
 	perm(a, 0, 2);
+	sayHello();
 	return 0;
 }
 
